@@ -1,38 +1,61 @@
-# create-svelte
+# Application de Réseau de Musculation RenconSport
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
+## Table des matières
 
-## Creating a project
+- [Introduction](#introduction)
+- [Fonctionnalités](#fonctionnalités)
+- [Technologies Utilisées](#technologies-utilisées)
+- [Installation](#installation)
+- [Licence](#licence)
+- [Autheur](#autheur)
 
-If you're seeing this, you've probably already done this step. Congrats!
+---
+
+## Introduction
+
+L'application de réseau de musculation RenconSport vise à offrir aux utilisateurs une plateforme conviviale pour planifier, suivre et partager leurs séances d'entraînement, ainsi que pour trouver des partenaires d'entraînement dans leur région.
+
+---
+
+## Fonctionnalités
+
+- **Planification d'entraînement** : Créez et personnalisez vos propres plans d'entraînement.
+- **Suivi des performances** : Suivez vos progrès et vos statistiques en temps réel.
+- **Messagerie entre utilisateurs** : Communiquez avec d'autres utilisateurs pour partager des conseils ou planifier des séances d'entraînement.
+- **Découverte de partenaires** : Trouvez des partenaires d'entraînement compatibles dans votre région.
+
+---
+
+## Technologies Utilisées
+
+- Front-end : ![Svelte](https://img.shields.io/badge/Front--end-Svelte-orange)
+- Back-end : ![Node.js](https://img.shields.io/badge/Back--end-Node.js-green), ![Firebase](https://img.shields.io/badge/Back--end-Firebase-yellow)
+- Mobile : ![Flutter](https://img.shields.io/badge/Mobile-Flutter-blue)
+- Design : ![Tailwind CSS](https://img.shields.io/badge/Design-Tailwindcss-purple)
+
+---
+
+## Installation
 
 ```bash
-# create a new project in the current directory
-npm create svelte@latest
-
-# create a new project in my-app
-npm create svelte@latest my-app
-```
-
-## Developing
-
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
-
-```bash
+git clone https://github.com/HardstyIe/RenconSport_Fullstack.git
+cd RenconSport_Fullstack
+npm install
 npm run dev
 
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
 ```
 
-## Building
+---
 
-To create a production version of your app:
+## Licence
 
-```bash
-npm run build
-```
+Ce projet est sous licence MIT - voir le fichier [LICENSE.md](LICENSE.md) pour plus de détails.
 
-You can preview the production build with `npm run preview`.
+---
 
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+## Autheur
+
+- **Duchemin Dylan** - _Développeur_ - [Hardstyle](https://github.com/HardstyIe)
+- **Deroullers Denis** - _Développeur_ - [Frenchode59](https://github.com/frenchcode59)
+- **Cardoso D'Almeida Benjamin** - _Développeur_ - [BenCDA](https://github.com/BenCDA)
+- **Douz Othman** - _Développeur_ - [Othman59](https://github.com/Othman59)
