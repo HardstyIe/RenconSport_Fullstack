@@ -9,15 +9,6 @@
 			Présentation de l'application RenconSport : 
 		</h1>
 
-		<div class="topText">
-		<p>
-			L'application RenconSport est une application permettant de faire des rencontres et du sport !  Peu importe le sport que vous pratiquez, vous pourrez rencontrer des partenaires d'entraînements où que vous soyez !
-		</p>
-		
-		<!-- <img src="assets/inscription.png" alt="Register app page"> -->
-
-		</div>
-
 
 
 	</article>
@@ -33,6 +24,7 @@
 	h1 {
 		font-weight: lighter;
 		font-size: 1.5rem;
+		color: #7FAAC8;
 	}
 	.topText {
 		display: flex;

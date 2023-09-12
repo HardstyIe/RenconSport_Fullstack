@@ -12,10 +12,11 @@
         background-color: #EEECDE;
         display: flex;
         justify-content: center;
-
-        @font-face {
+        font-family: 'Montserrat', sans-serif;
+        
+    }
+    @font-face {
             font-family: 'Montserrat';
             src: url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Montserrat:wght@100&display=swap');
         }
-    }
 </style>
