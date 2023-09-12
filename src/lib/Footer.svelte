@@ -15,8 +15,7 @@
 
         @font-face {
             font-family: 'Montserrat';
-            font-style: normal;
-            src: url('/assets/fonts/Montserrat/Montserrat-Regular.ttf') format('truetype');
+            src: url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Montserrat:wght@100&display=swap');
         }
     }
 </style>

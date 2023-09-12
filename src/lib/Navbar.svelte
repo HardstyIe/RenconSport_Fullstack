@@ -1,6 +1,8 @@
 <script></script>
 <nav>
 <img src="/assets/LogoGood.png" alt="Renconsport Logo">
+<img src="/assets/logoapple.png" alt="Logo Apple store">
+<img src="/assets/logogoogle.png" alt="Logo Google Play Store">
 </nav>
 
 
@@ -30,6 +32,16 @@ nav {
 
     img {
         height: 100px;
+    }
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1440px) {
+    nav {
+        height: 150px;
+    }
+
+    img {
+        height: 150px;
     }
 }
 
