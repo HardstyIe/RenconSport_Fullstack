@@ -9,3 +9,11 @@
 	</article>
 	
 </section>
+
+
+<style>
+	section {
+		height: 100vh;
+		background-color: #EEECDE;
+	}
+</style>

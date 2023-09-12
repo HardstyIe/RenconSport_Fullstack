@@ -6,9 +6,10 @@
 <main>
 	<Navbar />
 <!--	slot = "body" -->
-	<slot 
-	
-	/>
+	<slot />
 	<!-- Tout ce qui se trouve dans slot je le code dans +page.svelte (c'est le body) -->
 	<Footer />
 </main>
+
+
+
