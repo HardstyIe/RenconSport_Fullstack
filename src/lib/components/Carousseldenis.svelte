@@ -17,7 +17,6 @@
     "Page entrainements : Sur la page entrainement vous aurez acces a toutes les seances d'entrainement disponible ",
     "Page detail d'un entrainement : Sur la page detail d'un entrainement vous aurez acces a tout les details de l'activités choisis (lieu , heure ,date...) ",
     "Page messagerie : Sur la page messagerie vous pourrez directement communniquer avec les personnes avec lesquels vous avez matché ",
-    
     // Ajoutez plus de légendes ici
   ];
 
@@ -48,26 +47,32 @@
     align-items: center;
     justify-content: center;
     position: relative;
-    width: 40%;
+    width: 100%;
+    max-width: 800px; /* Largeur maximale du slider */
     margin: auto;
+    box-shadow: 15px 10px 10px 15px red;
   }
 
   .slide {
     text-align: center;
+    max-width: 100%;
+    padding: 0 20px; /* Espacement autour du contenu */
   }
 
   img {
     max-width: 100%;
-    max-height: 300px; /* Ajustez la hauteur selon vos besoins */
+    height: auto; /* Ajustement automatique de la hauteur */
+    max-height: 400px; /* Hauteur maximale de l'image */
   }
 
   p {
     font-size: 18px;
-    max-width: 50%;
+    max-width: 100%;
     margin: auto;
     box-shadow: 10px 15px 15px black;
-    margin-top: 50px;
-    margin-bottom: 50px;
+    margin-top: 20px; 
+    margin-bottom: 20px; 
+    
   }
 
   button {
@@ -98,6 +103,20 @@
   h1 {
     text-align: center;
     font-size: 3rem;
-    margin-bottom: 50px;
+    margin-bottom: 20px; /* Espacement inférieur réduit */
+    margin-top: 20px; /* Espacement supérieur réduit */
+  }
+
+  @media screen and (max-width: 600px) {
+    /* Styles pour les écrans de moins de 600px de large */
+    .slider {
+      padding: 0 10px; /* Espacement réduit sur les côtés */
+    }
+    img {
+      max-height: 300px; 
+    }
+    p {
+      font-size: 16px; 
+    }
   }
 </style>

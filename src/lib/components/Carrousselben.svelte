@@ -1,5 +1,5 @@
 <script lang="ts">
-	import Form from '$lib/components/Contact.svelte/components/Form.svelte';
+	
 	let currentSlide = 0;
 	const slides = ['/assets/inscription.png', '/assets/LogoGood.png', '/assets/Logogoogle.png'];
   
@@ -45,6 +45,7 @@
 	  justify-content: center;
 	  align-items: center;
 	  position: relative;
+	  
 	}
   
 	.carousel-button {
@@ -77,6 +78,7 @@
 	  display: flex;
 	  overflow: hidden;
 	  width: 100%;
+	  
 	}
   
 	.slide {
@@ -85,11 +87,13 @@
 	  justify-content: center;
 	  align-items: center;
 	  transition: transform 0.5s ease;
+	
 	}
   
 	img {
 	  max-width: 100%;
 	  max-height: 60%;
+
 	}
   
 	@media screen and (max-width: 600px) {

@@ -5,20 +5,22 @@
 <h1>Retrouvez nous sur Google Play et l'App Store</h1>
 
 <div class="container">
-    <div class="logo">
-        <a href=""><img src="/assets/logoapple.png" alt="Apple Store"></a>
+    <div class="store">
+        <div class="logo">
+            <a href=""><img src="/assets/logoapple.png" alt="Apple Store"></a>
+        </div>
+        <p>
+            <strong>App Store (pour les utilisateurs iOS) :</strong> Rendez-vous sur l'App Store et recherchez "[Nom de votre application]." Cliquez sur "Télécharger" pour l'installer sur votre appareil Apple.
+        </p>
     </div>
-    <p>
-        Vous cherchez notre application ? Ne cherchez plus loin ! Vous pouvez la télécharger dès maintenant sur l'App Store d'Apple ou sur Google Play pour Android. Notre application vous offre une expérience exceptionnelle, alors n'hésitez pas à la télécharger et à vous joindre à notre communauté.
-
-        <strong>App Store (pour les utilisateurs iOS) :</strong> Rendez-vous sur l'App Store et recherchez "[Nom de votre application]." Cliquez sur "Télécharger" pour l'installer sur votre appareil Apple.
-
-        <strong>Google Play (pour les utilisateurs Android) :</strong> Accédez à Google Play Store et recherchez "[Nom de votre application]." Appuyez sur "Installer" pour profiter de toutes les fonctionnalités de notre application sur votre appareil Android.
-
-        Téléchargez maintenant et découvrez tout ce que notre application a à offrir. Rejoignez-nous dès aujourd'hui !
-    </p>
-    <div class="logo">
-        <a href=""><img src="/assets/logogoogle.png" alt="Google Play"></a>
+    <div class="store">
+        <div class="logo">
+            <a href=""><img src="/assets/logogoogle.png" alt="Google Play"></a>
+        </div>
+        <p>
+            <strong>Google Play (pour les utilisateurs Android) :</strong> Accédez à Google Play Store et recherchez "[Nom de votre application]." Appuyez sur "Installer" pour profiter de toutes les fonctionnalités de notre application sur votre appareil Android.
+        </p>
+    
     </div>
 </div>
 
@@ -27,6 +29,9 @@
         text-align: center;
         margin-top: 70px;
         margin-bottom: 70px;
+    }
+    img{
+        width: 40%;
     }
 
     .container{
@@ -38,12 +43,12 @@
         padding: 20px;
     }
 
-    .logo{
-        width: 3%;
+    .store{
+        width: 50%;
         text-align: center;
     }
 
-    img{
+    .logo{
         width: 100%;
         max-width: 150px; /* Ajustez la taille de vos logos ici */
         margin: 0 auto; /* Centrez les logos horizontalement */
@@ -52,7 +57,8 @@
 
     p{
         width: 100%;
-        max-width: 400px; /* Ajustez la largeur de votre texte ici */
+        max-width: 150px; /* Ajustez la largeur de votre texte ici */
         color: white;
+        margin: 10px auto; /* Centrez le texte horizontalement et ajoutez de l'espace autour */
     }
 </style>

@@ -1,14 +1,9 @@
 <script></script>
 <nav>
-    
-        <div class="logo">
-            <img src="/assets/LogoGood.png" alt="Renconsport Logo">
-        </div>
-       
-    
-    
+    <div class="logo">
+        <img src="/assets/LogoGood.png" alt="Renconsport Logo">
+    </div>
 </nav>
-
 
 <style>
 nav {
@@ -18,10 +13,10 @@ nav {
     align-items: center; /* Pour centrer verticalement les logos */
     height: 150px;
     padding: 0 20px; /* Espace autour des logos pour les séparer du bord de la navbar */
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.8); /* Augmentez la taille de l'ombre */
 }
 
-.logo{
-    
+.logo {
     height: 90px;
 }
 
@@ -38,7 +33,6 @@ img {
         height: 80px; /* Réduit la taille des logos pour les écrans plus petits */
     }
 }
-
 
 @media screen and (max-width: 600px) {
     nav {
@@ -69,7 +63,4 @@ img {
         height: 150px;
     }
 }
-
-
-
 </style>

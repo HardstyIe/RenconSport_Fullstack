@@ -13,6 +13,7 @@
         display: flex;
         justify-content: center;
         font-family: 'Montserrat', sans-serif;
+        height: 3rem;
         
     }
     @font-face {
