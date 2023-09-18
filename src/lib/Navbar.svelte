@@ -1,13 +1,10 @@
 <script></script>
 <nav>
     
-        <div class="left-logo">
+        <div class="logo">
             <img src="/assets/LogoGood.png" alt="Renconsport Logo">
         </div>
-        <div class="right-logos">
-            <img src="/assets/logoapple.png" alt="Logo Apple store">
-            <img src="/assets/logogoogle.png" alt="Logo Google Play Store">
-        </div>
+       
     
     
 </nav>
@@ -23,13 +20,9 @@ nav {
     padding: 0 20px; /* Espace autour des logos pour les séparer du bord de la navbar */
 }
 
-.right-logo {
-    order: 1; 
-}
-
-.left-logos {
-    display: flex;
-    gap: 10px; 
+.logo{
+    
+    height: 90px;
 }
 
 img {
