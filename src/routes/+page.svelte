@@ -1,5 +1,6 @@
 <script lang="ts">
 	import Carousseldenis from "$lib/components/Carousseldenis.svelte";
+	import Contact from "$lib/components/Contact.svelte";
 	import Download from "$lib/components/Download.svelte";
 import Hero from "$lib/components/Hero.svelte";
  let image = [
@@ -14,6 +15,7 @@ import Hero from "$lib/components/Hero.svelte";
 	<Hero/>
 <Carousseldenis/>
 <Download />
+<Contact />
 </section>
 
 <style></style>

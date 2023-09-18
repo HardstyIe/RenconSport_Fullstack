@@ -1,5 +1,5 @@
 <script lang="ts">
-	import Form from '$lib/components/Contact/components/Form.svelte';
+	import Form from '$lib/components/Contact.svelte/components/Form.svelte';
 	let currentSlide = 0;
 	const slides = ['/assets/inscription.png', '/assets/LogoGood.png', '/assets/Logogoogle.png'];
   
@@ -13,10 +13,10 @@
   </script>
   
   <section>
-	<article>
+	<article id="tuto">
 	  <h1>Présentation de l'application RenconSport :</h1>
   
-	  <div class="carousel-container">
+	  <div id="caroussel" class="carousel-container">
 		<button class="carousel-button prev" on:click={prevSlide}>◀</button>
 		<div class="carousel">
 		  {#each slides as slide, i}

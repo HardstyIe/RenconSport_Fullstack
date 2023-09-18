@@ -5,7 +5,7 @@
     <div class="hero-content">
         <h1>Renconsport</h1>
         <h2>des rencontres et du sport </h2>
-        <button><a href="">commencer maintenant</a></button>
+        <button><a href="#caroussel">commencer maintenant</a></button>
     </div>
 
 </section>
