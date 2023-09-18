@@ -10,7 +10,7 @@
             <a href=""><img src="/assets/logoapple.png" alt="Apple Store"></a>
         </div>
         <p>
-            <strong>App Store (pour les utilisateurs iOS) :</strong> Rendez-vous sur l'App Store et recherchez "[Nom de votre application]." Cliquez sur "Télécharger" pour l'installer sur votre appareil Apple.
+            <strong>App Store (pour les utilisateurs iOS) :</strong> Rendez-vous sur l'App Store et recherchez "Renconsport." Cliquez sur "Télécharger" pour l'installer sur votre appareil Apple.
         </p>
     </div>
     <div class="store">
@@ -18,7 +18,7 @@
             <a href=""><img src="/assets/logogoogle.png" alt="Google Play"></a>
         </div>
         <p>
-            <strong>Google Play (pour les utilisateurs Android) :</strong> Accédez à Google Play Store et recherchez "[Nom de votre application]." Appuyez sur "Installer" pour profiter de toutes les fonctionnalités de notre application sur votre appareil Android.
+            <strong>Google Play (pour les utilisateurs Android) :</strong> Accédez à Google Play Store et recherchez "Renconsport." Appuyez sur "Installer" pour profiter de toutes les fonctionnalités de notre application sur votre appareil Android.
         </p>
     
     </div>
