@@ -28,7 +28,7 @@
         </div>
         <div style="margin-bottom: 10px;">
           <label for="message" style="display: block; font-size: 14px; font-weight: bold; margin-bottom: 5px;">Message</label>
-          <textarea id="message" style="width: 100%; padding: 10px; border: 1px solid #ccc; border-radius: 4px;" bind:value={message} rows="4" required></textarea>
+          <textarea id="message" style="resize: none; width: 100%; padding: 10px; border: 1px solid #ccc; border-radius: 4px;" bind:value={message} rows="4" required></textarea>
         </div>
         <div style="text-align: center;">
           <button type="submit" style="background-color: #007bff; color: white; padding: 10px 20px; font-weight: bold; border: none; border-radius: 4px; cursor: pointer; transition: background-color 0.3s;">Envoyer</button>
@@ -36,4 +36,6 @@
       </form>
     </div>
   </main>
+
+  
   
