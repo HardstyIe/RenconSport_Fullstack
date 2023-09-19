@@ -4,13 +4,14 @@
 <section id="hero">
     <div class="hero-content">
         <h1>Renconsport</h1>
-        <h2>des rencontres et du sport </h2>
+        <h2>Des rencontres et du sport !</h2>
         <button><a href="#caroussel">commencer maintenant</a></button>
     </div>
 
 </section>
 
 <style>
+
     #hero {
         background-image: url(/assets/Heroe.jpg);
         width: 100vw;
@@ -21,17 +22,21 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        text-align: center; /* Centrez le texte horizontalement */
+        text-align: center;
         margin-bottom: 100px;
     }
 
     h1 {
+        font-family: 'Merriweather', serif;
         color: white;
-        font-size: 3.4rem;
+        font-weight: bold;
+        text-transform: uppercase;
+        font-size: 4rem;
     }
 
     h2 {
-        color: white;
+        font-family: 'Montserrat', sans-serif;
+        color: lightgray;
     }
 
     /* Style du bouton */
@@ -48,6 +53,7 @@
 
     /* Style du lien à l'intérieur du bouton */
     button a {
+        font-family: 'Montserrat', sans-serif;
         text-decoration: none;
         color: white;
     }

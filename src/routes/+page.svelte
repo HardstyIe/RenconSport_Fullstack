@@ -13,9 +13,12 @@ import Hero from "$lib/components/Hero.svelte";
 
 <section>
 	<Hero/>
-<Carousseldenis/>
-<Download />
-<Contact />
+	<Carousseldenis/>
+	<Download/>
+	<Contact/>
 </section>
 
-<style></style>
+<style>
+	@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
+	@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+</style>

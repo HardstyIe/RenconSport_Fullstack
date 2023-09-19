@@ -9,15 +9,12 @@
 
 <style>
     footer{
-        background-color: #EEECDE;
+        background-color: #7faac8;
         display: flex;
         justify-content: center;
         font-family: 'Montserrat', sans-serif;
         height: 3rem;
-        
+        padding: 15px 0;    
     }
-    @font-face {
-            font-family: 'Montserrat';
-            src: url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Montserrat:wght@100&display=swap');
-        }
+    
 </style>

@@ -26,39 +26,43 @@
 
 <style>
     h1{
+        font-family: 'Merriweather', serif;
         text-align: center;
-        margin-top: 70px;
-        margin-bottom: 70px;
+        margin: 50px 0;
     }
+    
     img{
-        width: 40%;
+        width: 90%;
+        border-radius: 25px;
     }
 
     .container{
         background-color: rgb(66, 67, 57);
         display: flex;
+        flex-direction: row;
         justify-content: space-around;
         align-items: center;
-        flex-wrap: wrap;
-        padding: 20px;
     }
 
     .store{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
         width: 50%;
-        text-align: center;
     }
 
     .logo{
         width: 100%;
-        max-width: 150px; /* Ajustez la taille de vos logos ici */
-        margin: 0 auto; /* Centrez les logos horizontalement */
-        display: block;
+        max-width: 150px;
     }
 
-    p{
+    p{  
+        font-size: 1.1rem;
+        text-align: left;
         width: 100%;
+        height: 30vh;
         max-width: 150px; /* Ajustez la largeur de votre texte ici */
         color: white;
-        margin: 10px auto; /* Centrez le texte horizontalement et ajoutez de l'espace autour */
+        margin: 20px 0; /* Centrez le texte horizontalement et ajoutez de l'espace autour */
     }
 </style>
