@@ -7,7 +7,8 @@
 
 <style>
 nav {
-    background: rgba(127,170,200,1);
+    background: rgb(249,249,249);
+    background: radial-gradient(circle, rgba(249,249,249,1) 22%, rgba(165,206,235,1) 46%, rgba(127,170,200,1) 76%);
     display: flex;
     justify-content: space-between; /* Pour séparer les logos à gauche et à droite */
     align-items: center; /* Pour centrer verticalement les logos */
@@ -22,6 +23,14 @@ nav {
 
 img {
     height: 90%; 
+}
+
+
+
+@media screen and (max-width: 600px) {
+    .logo {
+        margin: auto;
+    }
 }
 
 </style>

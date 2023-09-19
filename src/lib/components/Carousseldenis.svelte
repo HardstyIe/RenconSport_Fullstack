@@ -57,10 +57,6 @@
     max-width: 100%;
   }
 
-  .slide img {
-    border-radius: 30px;
-  }
-
   img {
     max-width: 100%;
     height: auto; /* Ajustement automatique de la hauteur */
