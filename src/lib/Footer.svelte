@@ -9,7 +9,8 @@
 
 <style>
     footer{
-        background-color: #7faac8;
+        background: rgb(249,249,249);
+        background: radial-gradient(circle, rgba(249,249,249,1) 22%, rgba(165,206,235,1) 46%, rgba(127,170,200,1) 76%);
         display: flex;
         justify-content: center;
         font-family: 'Montserrat', sans-serif;

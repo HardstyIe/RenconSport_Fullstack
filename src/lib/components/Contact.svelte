@@ -15,7 +15,7 @@
   </script>
   
   <main style="background-color: #f4f4f4; min-height: 100vh; display: flex; justify-content: center; align-items: center;">
-    <div style="background-color: white; padding: 20px; border-radius: 5px; box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2); width: 100%; max-width: 400px;">
+    <div style="font-family: 'Montserrat', sans-serif; background-color: white; padding: 20px; border-radius: 10px; box-shadow: 0px 0px 10px lightgray ; width: 100%; max-width: 400px;">
       <h1 style="font-size: 24px; font-weight: bold; margin-bottom: 20px;">Contactez-nous</h1>
       <form on:submit|preventDefault={handleSubmit}>
         <div style="margin-bottom: 10px;">

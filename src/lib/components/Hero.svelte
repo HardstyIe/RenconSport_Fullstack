@@ -13,7 +13,7 @@
 <style>
 
     #hero {
-        background-image: url(/assets/Heroe.jpg);
+        background: url(/assets/Heroe.jpg) fixed;
         width: 100vw;
         height: 100vh;
         background-size: cover;
@@ -45,6 +45,7 @@
         color: white;
         padding: 10px 20px;
         font-weight: bold;
+        text-transform: uppercase;
         border: none;
         border-radius: 5px;
         cursor: pointer;
@@ -57,4 +58,10 @@
         text-decoration: none;
         color: white;
     }
+
+    @media screen and (max-width: 800px) {
+        h1 {
+            font-size: 3rem;
+        }
+}
 </style>

@@ -82,7 +82,7 @@
 
   button {
     position: absolute;
-    top: 45%;
+    top: 42%;
     transform: translateY(-50%);
     background-color: #404041;
     color: white;
@@ -127,5 +127,17 @@
       font-family: 'Montserrat', sans-serif;
       font-size: 16px; 
     }
+
+    
+  }
+
+  @media screen and (max-width: 600px) {
+
+    button {
+      border-radius: 0px;
+      margin: 2px;
+      padding: 5px 5px;
+    }
+
   }
 </style>
