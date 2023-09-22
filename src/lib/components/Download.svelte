@@ -18,7 +18,7 @@
             <a href=""><img src="/assets/logogoogle.png" alt="Google Play"></a>
         </div>
         <p>
-            <strong>Google Play (pour les utilisateurs Android) :</strong> Accédez à Google Play Store et recherchez "Renconsport." Appuyez sur "Installer" pour profiter de toutes les fonctionnalités de notre application sur votre appareil Android.
+            <strong>Google Play (pour les utilisateurs Android) :</strong> Accédez à Google Play Store et recherchez "Renconsport." Appuyez sur "Installer" pour profiter de notre application sur votre appareil Android.
         </p>
     
     </div>

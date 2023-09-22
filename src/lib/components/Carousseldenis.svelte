@@ -1,23 +1,26 @@
 <script>
   let images = [
-    '/assets/inscription.png',
-    '/assets/Heroe.jpg',
-    '/assets/logoapple.png',
-    '/assets/LogoGood.png',
-    '/assets/logogoogle.png',
-    '/assets/LogoGood.png',
-    '/assets/LogoGood.png',
+    'assets/inscription.png',
+    'assets/connexion.png',
+    'assets/accueil.png',
+    'assets/profil.png',
+    'assets/entrainement.png',
+    'assets/message.png',
+    
+    'assets/recherche.png',
+    'assets/filtre.png'
+    
   ];
 
   let captions = [
-    "Page inscriptions :   Si vous êtes nouveau, commencez par créer un compte avec votre email.",
-    "Page connexion : connectez vous avec les identifiants que vous avez utilisé pour vous inscrire.",
-    "Page acceuil : sur la page principale, vous verrez les profils d'autres utilisateurs. Swipez vers la gauche si vous n'êtes pas intéressé(e) et vers la droite si vous l'êtes. Si quelqu'un que vous avez aimé aime aussi votre profil, c'est un match ! ",
-    "Page profil : Vous arrivez sur votre profil ou vous retrouver vos informations avec votre pseudo , votre age , vos etudes , vos sports pratiqués et une bréve description",
-    "Page entrainements : Sur la page entrainement vous aurez acces a toutes les seances d'entrainement disponible.",
-    "Page detail d'un entrainement : Sur la page detail d'un entrainement vous aurez acces a tout les details de l'activités choisis (lieu, heure, date...) ",
-    "Page messagerie : Sur la page messagerie vous pourrez directement communniquer avec les personnes avec lesquels vous avez matché.",
-    // Ajoutez plus de légendes ici
+    "Page inscription :   Si vous êtes nouveau, commencez par créer un compte avec votre email.",
+    "Page connexion : connectez vous avec les identifiants que vous avez utilisé pour vous inscrire ou à l'aide de votre compte Gmail.",
+    "Page accueil : sur la page principale, vous verrez les profils d'autres utilisateurs. Swipez vers la gauche si vous n'êtes pas intéressé(e) et vers la droite si vous l'êtes. Si quelqu'un que vous avez aimé aime aussi votre profil, c'est un match ! ",
+    "Page profil : Vous arrivez sur votre profil où vous retrouver vos informations avec votre pseudo , votre age , votre email , vos sports pratiqués et une bréve description",
+    "Page entraînements : Sur la page entraînement vous aurez accès à toutes les séances d'entraînement disponibles.",
+    "Page messagerie : Sur la page messagerie vous pourrez directement communiquer avec les personnes avec lesquels vous avez matché.",
+    "Page recherche : Sur la page recherche vous pourrez rechercher des entraînements en fonction de vos rencontres, de votre localisation et de vos envies"   ,
+    "Page filtre : Sur la page filtre vous pourrez filtrer les entrainements"
   ];
 
   let currentIndex = 0;
